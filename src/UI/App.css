@@ -1,0 +1,108 @@
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: white;
+    font-family: Arial, sans-serif;
+    padding:0;
+    margin: 0;
+}
+
+h1 {
+    color: #494949;
+    font-weight: bold;
+    font-stretch: extra-expanded;
+    border-bottom: 3px solid #494949;
+}
+
+h2 {
+    width: 600px;
+    text-align: left;
+    color: #606060;
+    font-size: 20px;
+    margin: 4px;
+}
+
+.section {
+    margin: 20px;
+    width: 600px;
+}
+
+table {
+    width: 100%;
+    padding: 4px;
+}
+
+.element {
+    padding: 15px;
+    font-style: italic;
+    font-size: x-large;
+}
+
+.sensorvalue {
+    text-align: right;
+}
+
+.icon {
+    text-align: center;
+}
+
+#color_selector {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+button {
+    border: none;
+    color: white;
+    padding: 8px 16px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+#red {
+    background-color: #f44336;
+    color: white;
+    border: 2px solid #f44336;
+}
+
+
+#red:hover, #green:hover, #blue:hover {
+    background-color: white;
+    color: black;
+}
+
+#green {
+    background-color: #4CAF50;
+    color: white;
+    border: 2px solid #4CAF50;
+}
+
+
+#blue {
+    background-color: #008CBA;
+    color: white;
+    border: 2px solid #008CBA;
+}
+
+
+#off:hover {
+    background-color: white;
+    color: black;
+}
+
+
+#off {
+    background-color: #555555;
+    color: white;
+    border: 2px solid #555555;
+}

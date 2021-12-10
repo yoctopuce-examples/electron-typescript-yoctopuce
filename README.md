@@ -4,7 +4,7 @@ This project is a sample Electron application using Yoctopuce sensors,
 written in Typescript.
 
 It uses our custom build tools described in more details in our
-[electron-typescript-preact boilerplate](../electron-typescript).
+[electron-typescript-preact boilerplate](https://github.com/yoctopuce-examples/electron-typescript-preact-boilerplate).
 
 ### Usage
 
